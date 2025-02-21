@@ -1,42 +1,61 @@
-**Configure an Amazon CloudFront Distribution with an Amazon S3 Origin**
+**AWS multi-tier architecture**
 
-Amazon Web Services (AWS) solutions architects must frequently design and build secure, high-performing, resilient, efficient architectures for applications and workloads to deliver content. Amazon CloudFront is a web service that provides a cost-effective way to distribute content with low latency and high data transfer speeds. You can use CloudFront to accelerate static website content delivery, serve video on demand or live streaming video, and even run serverless code at the edge location. In this lab, you configure a CloudFront distribution in front of an Amazon Simple Storage Service (Amazon S3) bucket and secure it using origin access control (OAC) provided by CloudFront.
+Objectives of the Project:-
 
-**Objectives of the project:-**
-Create an S3 bucket with default security settings,
-Configure an S3 bucket for public access,
-Add an S3 bucket as a new origin to an existing CloudFront distribution,
-Secure an S3 bucket to permit access only through the CloudFront distribution,
-Configure OAC to lock down security to an S3 bucket,
-Configure Amazon S3 resource policies for public or OAC access.
+1.Deploy a virtual network spread across multiple Availability Zones in a Region using a CloudFormation template.
 
-![image](https://github.com/user-attachments/assets/db162536-9548-4994-b7c1-eabf9fdd0204)
+2.Deploy a highly available and fully managed relational database across those Availability Zones (AZ) using Amazon Relational Database Service (Amazon RDS).
 
-**Tasks followed in the Project**
+3.Use Amazon Elastic File System (Amazon EFS) to provision a shared storage layer across multiple Availability Zones for the application tier, powered by Network File System (NFS).
 
-1.Logged into the AWS Management Console.
+4.Create a group of web servers that automatically scales in response to load variations to complete your application tier.
 
-2.Observed the already created CloudFront origin, Explored different tabs like General,Security,Origins(Chosen ELB as origin),Behaviors,Error pages,INvalidations, Tags.
+![image](https://github.com/user-attachments/assets/2c9e3a0e-ede9-4961-9ef2-b96a9cf999de)
 
-3.Created S3 bucket and changed the configuration of the bucket to allow public access.
+Tasks followed up in the project:-
 
-![image](https://github.com/user-attachments/assets/a7b0839e-c76c-49d2-b588-2f179d85be89)
+Task 1:-
 
-4. Changed the Public read policy by adding the Bucket ARN which applies to each objects in the bucket.
+![image](https://github.com/user-attachments/assets/f29aa2e0-1c7b-4072-a806-1d5d0df416de)
 
-5. Created the new folder in the object and uploaded the image in the object and tested that the objcet can be accessible by opening in a new tab by clicking the object URL.
-      ![image](https://github.com/user-attachments/assets/b03b7837-7638-46b6-8887-05821e389485)
 
-6. Edited the Public read ploicy adding the cloudfront ARN to get origin access to the cloudfront.
+![image](https://github.com/user-attachments/assets/40f42824-e566-4b56-a6b1-0d2ae6d4e907)
 
-7. Created the new origin and added S3 bucket as origin which created earlier.
+Task 2
 
-8. Created the new behavior and added the object folder in path pattern and chosen the origin which created in the above step.
+![image](https://github.com/user-attachments/assets/c6e021e0-f52a-42b5-8662-eb2cbe8c928c)
 
-9. Tested the access to the object through the cloudfront distribution DNS by pasting it in the new tab and appended the object name.
 
-   ![image](https://github.com/user-attachments/assets/1b267f92-43f5-49dc-b253-f10ecd83ed1b)
- 
+![image](https://github.com/user-attachments/assets/c7f82d32-3ba7-4828-8f62-449d31096068)
+
+Task 3
+
+![image](https://github.com/user-attachments/assets/a2958060-cb85-4e3c-b01f-e29dd5e01914)
+
+Task 4:-
+
+![image](https://github.com/user-attachments/assets/cf469e22-2dd7-4219-acba-09b11f34d0d9)
+
+![image](https://github.com/user-attachments/assets/3a7c118d-df74-47db-9d19-8e2fd6e370fb)
+
+Task 5:-
+
+![image](https://github.com/user-attachments/assets/a0ec311e-acb8-45ed-9e7c-7e5a403d8ee8)
+
+Task 6:-
+
+![image](https://github.com/user-attachments/assets/77970d06-3a1d-4dc0-9a3a-843587e38191)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
