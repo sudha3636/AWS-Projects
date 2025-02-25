@@ -3,12 +3,18 @@
 Amazon Web Services (AWS) solutions architects must frequently design and build secure, high-performing, resilient, efficient architectures for applications and workloads to deliver content. Amazon CloudFront is a web service that provides a cost-effective way to distribute content with low latency and high data transfer speeds. You can use CloudFront to accelerate static website content delivery, serve video on demand or live streaming video, and even run serverless code at the edge location. In this lab, you configure a CloudFront distribution in front of an Amazon Simple Storage Service (Amazon S3) bucket and secure it using origin access control (OAC) provided by CloudFront.
 
 **Objectives of the project:-**
-Create an S3 bucket with default security settings,
-Configure an S3 bucket for public access,
-Add an S3 bucket as a new origin to an existing CloudFront distribution,
-Secure an S3 bucket to permit access only through the CloudFront distribution,
-Configure OAC to lock down security to an S3 bucket,
-Configure Amazon S3 resource policies for public or OAC access.
+
+Created an S3 bucket with default security settings.
+
+Configured an S3 bucket for public access.
+
+Added an S3 bucket as a new origin to an existing CloudFront distribution.
+
+Secured an S3 bucket to allow access only through the CloudFront distribution.
+
+Configured OAC to lock down security to an S3 bucket.
+
+Configured Amazon S3 resource policies for public or OAC access.
 
 ![image](https://github.com/user-attachments/assets/db162536-9548-4994-b7c1-eabf9fdd0204)
 
