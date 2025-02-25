@@ -16,7 +16,7 @@ Objectives of the Project:-
 
 1.Logged into the AWS Console.
 
-2.Navigated to CloudFormation and created the stack, which required to create the related resources like VPC, Region, DBSubnets,EFS Mounttarget SecurityGroup, AppInstance SecurityGroup.
+2.Navigated to CloudFormation and created the stack, which required to create the related resources like VPC, Region, DBSubnets,EFS Mountarget SecurityGroup, AppInstance SecurityGroup.
 
 ![image](https://github.com/user-attachments/assets/f29aa2e0-1c7b-4072-a806-1d5d0df416de)
 
@@ -52,7 +52,7 @@ Objectives of the Project:-
 
 11.Navigated to EC2 to create Auto scaling group and set the desired capacity instances according to the requirement, attached the target group and enabled ELB health checks.
 
-12. Verfied that EC2 instances are InService and checked the health of teh instances and confirmed the instance is healty.
+12. Verfied that EC2 instances are InService and checked the health of the instances and confirmed the instance is healthy.
 
 ![image](https://github.com/user-attachments/assets/77970d06-3a1d-4dc0-9a3a-843587e38191)
 
